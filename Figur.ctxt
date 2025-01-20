@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Figur
+comment1.params=
+comment1.target=Figur()
+comment2.params=w
+comment2.target=void\ setzeWaffe(Waffe)
+comment3.params=
+comment3.target=Waffe\ gibWaffe()
+numComments=4

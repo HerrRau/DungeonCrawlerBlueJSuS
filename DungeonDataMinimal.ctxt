@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=DungeonDataMinimal
+comment1.params=
+comment1.target=DungeonDataMinimal()
+comment2.params=
+comment2.target=char[][]\ gibLevel()
+comment3.params=
+comment3.target=int\ gibStartX()
+comment4.params=
+comment4.target=int\ gibStartY()
+comment5.params=
+comment5.target=char\ gibStartFacing()
+comment6.params=
+comment6.target=void\ initialisiereLevel()
+comment7.params=c
+comment7.target=Gegenstand\ gibStandardgegenstand(char)
+numComments=8

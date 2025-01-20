@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=DungeonModel
+comment1.params=d
+comment1.target=DungeonModel(DungeonData)
+comment2.params=
+comment2.target=void\ setzeLevel()
+comment3.params=c
+comment3.target=Gegenstand\ gibStandardgegenstand(char)
+comment4.params=
+comment4.target=void\ ergaenzeLevel()
+numComments=5

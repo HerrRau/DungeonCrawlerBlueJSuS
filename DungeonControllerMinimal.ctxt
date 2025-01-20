@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DungeonControllerMinimal
+comment1.params=
+comment1.target=DungeonControllerMinimal()
+comment2.params=view
+comment2.target=void\ setView(crawlergame.DungeonView)
+numComments=3

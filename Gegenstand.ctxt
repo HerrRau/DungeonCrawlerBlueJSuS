@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Gegenstand
+comment1.params=
+comment1.target=Gegenstand()
+comment10.params=f
+comment10.target=boolean\ kannBenutzern(Figur)
+comment11.params=
+comment11.target=char\ gibKuerzel()
+comment12.params=c
+comment12.target=void\ setzeKuerzel(char)
+comment2.params=name\ beschreibung\ bildname\ kuerzel
+comment2.target=Gegenstand(java.lang.String,\ java.lang.String,\ java.lang.String,\ char)
+comment3.params=
+comment3.target=java.lang.String\ gibBildname()
+comment4.params=s
+comment4.target=void\ setzeBildname(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ gibBeschreibung()
+comment6.params=s
+comment6.target=void\ setzeBeschreibung(java.lang.String)
+comment7.params=
+comment7.target=java.lang.String\ gibName()
+comment8.params=s
+comment8.target=void\ setzeName(java.lang.String)
+comment9.params=
+comment9.target=int\ gibBonus()
+numComments=13

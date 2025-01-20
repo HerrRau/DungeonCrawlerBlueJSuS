@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=DungeonData
+comment1.params=
+comment1.target=char[][]\ gibLevel()
+comment2.params=
+comment2.target=int\ gibStartX()
+comment3.params=
+comment3.target=int\ gibStartY()
+comment4.params=
+comment4.target=char\ gibStartFacing()
+comment5.params=c
+comment5.target=Gegenstand\ gibStandardgegenstand(char)
+comment6.params=
+comment6.target=void\ zeichneLevel()
+numComments=7
