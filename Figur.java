@@ -9,7 +9,6 @@ public class Figur extends ModelSender
 
     public void setzeWaffe(Waffe w) {
         waffe = w;
-        gibAnsicht().zeigeFigur(2, "sword.png");
         gibAnsicht().zeigeFigur(3, "sword.png");
     }
 
