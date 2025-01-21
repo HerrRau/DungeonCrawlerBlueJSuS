@@ -2,16 +2,17 @@ import crawlergame.*;
 
 public class DungeonModel extends DungeonModelAbstract
 {
-    private DungeonData dungeonData;
+    DungeonData dungeonData;
 
     public DungeonModel(DungeonData d) {
         dungeonData = d;
+        dungeonData.setzeModel(this);
         setzeLevel();
     }
     
     public void setzeLevel() {
         super.setzeLevel(dungeonData.gibLevel(), dungeonData.gibStartX(), dungeonData.gibStartY(), dungeonData.gibStartFacing());
-        ergaenzeLevel();
+        dungeonData.ergaenzeLevel();
     }
 
     // used by DungeonModelAbstract and JPanel
@@ -20,8 +21,5 @@ public class DungeonModel extends DungeonModelAbstract
         return dungeonData.gibStandardgegenstand(c);
     }
     
-    public void ergaenzeLevel() {
-        
-    }
 
 }
