@@ -1,8 +1,8 @@
-public class WAFFELOESUNG extends Gegenstand
+public class WAFFELOESUNG1 extends Gegenstand
 {
     private int angriff;    
 
-    public WAFFELOESUNG()
+    public WAFFELOESUNG1()
     {
         angriff = 5;
         setzeBildname("sword.png");

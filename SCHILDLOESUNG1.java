@@ -1,8 +1,8 @@
-public class SCHILDLOESUNG extends Gegenstand
+public class SCHILDLOESUNG1 extends Gegenstand
 {
     private int verteidigung;    
 
-    public SCHILDLOESUNG()
+    public SCHILDLOESUNG1()
     {
         verteidigung = 5;
         setzeBildname("shield.png");

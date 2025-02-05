@@ -1,24 +1,24 @@
 import crawlergame.*;
 
-public class FIGURLOESUNG extends ModelSender
+public class FIGURLOESUNG1 extends ModelSender
 {
     private Schild schild;
     private Waffe waffe;
     private int staerke;
     private int geschicklichkeit;
 
-    public FIGURLOESUNG() {
+    public FIGURLOESUNG1() {
         staerke = 10;
     }
 
-    public FIGURLOESUNG(int staerkeNeu, int geschicklichkeitNeu, Waffe waffeNeu, Schild schildNeu) {
+    public FIGURLOESUNG1(int staerkeNeu, int geschicklichkeitNeu, Waffe waffeNeu, Schild schildNeu) {
         staerke = staerkeNeu;
         geschicklichkeit = geschicklichkeitNeu;
         waffe = waffeNeu;
         schild = schildNeu;        
     }
 
-    public FIGURLOESUNG(int staerkeNeu, int geschicklichkeitNeu) {
+    public FIGURLOESUNG1(int staerkeNeu, int geschicklichkeitNeu) {
         staerke = staerkeNeu;
         geschicklichkeit = geschicklichkeitNeu;
         waffe = null;
@@ -56,13 +56,17 @@ public class FIGURLOESUNG extends ModelSender
         gibAnsicht().zeigeFigur(3, "sword.png");
     }
 
+    public Waffe gibWaffe() {
+        return waffe;
+    }
+
     public void setzeSchild(Schild s) {
         schild = s;
         gibAnsicht().zeigeFigur(4, "shield.png");
     }
 
-    public Waffe gibWaffe() {
-        return waffe;
+    public Waffe gibSchild() {
+        return schild;
     }
 
 }

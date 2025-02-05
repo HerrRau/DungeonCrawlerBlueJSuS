@@ -1,6 +1,6 @@
-public class TESTLOESUNG
+public class TESTLOESUNG1
 {
-    public TESTLOESUNG()
+    public TESTLOESUNG1()
     {
         test();
     }
