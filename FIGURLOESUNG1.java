@@ -53,7 +53,7 @@ public class FIGURLOESUNG1 extends ModelSender
 
     public void setzeWaffe(Waffe w) {
         waffe = w;
-        gibAnsicht().zeigeFigur(3, "sword.png");
+        gibAnsicht().zeigeFigur(3, w.gibBildname());
     }
 
     public Waffe gibWaffe() {
@@ -62,10 +62,10 @@ public class FIGURLOESUNG1 extends ModelSender
 
     public void setzeSchild(Schild s) {
         schild = s;
-        gibAnsicht().zeigeFigur(4, "shield.png");
+        gibAnsicht().zeigeFigur(4, s.gibBildname());
     }
 
-    public Waffe gibSchild() {
+    public Schild gibSchild() {
         return schild;
     }
 

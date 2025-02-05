@@ -2,10 +2,10 @@ public class TESTLOESUNG1
 {
     public TESTLOESUNG1()
     {
-        test();
+        erzeugeFigur();
     }
     
-    public void test() {
+    public void erzeugeFigur() {
         Figur f = new Figur();
         Schild s = new Schild();
         Waffe w = new Waffe();
